@@ -2,8 +2,7 @@
 layout: default
 title: Miguel Francisco Nuñez Burguera's Resume
 ---
-
-Barcelona, Spain | +34633054984 | {{ site.email }}
+Barcelona, Spain | {{ site.email }}
 
 ## Summary
 

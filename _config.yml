@@ -24,8 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Highly skilled and enthusiastic Cloud Architect with extensive experience in designing and implementing complex and non-standard cloud solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+linekdin_username: miguel-francisco-nunez-burguera 
+github_username:  miguelfrancisco85
+twitter_username: Miguelfrancisco
 
 # Build settings
 theme: minima
