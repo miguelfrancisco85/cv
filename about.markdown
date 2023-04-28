@@ -1,18 +1,19 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="page">
+  <h1>About</h1>
+  <p>
+    {{ site.description }}
+  </p>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+  <h2>Contact</h2>
+  <p>Email: {{ site.email }}</p>
+  <p>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a> |
+    <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a> |
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>
+  </p>
+</div>
