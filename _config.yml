@@ -1,59 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Miguel Francisco Nuñez Burguera | Cloud Architect
-email: miguelfrancisco85@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Highly skilled and enthusiastic Cloud Architect with extensive experience in designing and implementing complex and non-standard cloud solutions.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
-linkedin_username: miguel-francisco-nunez-burguera 
-github_username: miguelfrancisco85
-twitter_username: Miguelfrancisco
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-markdown: kramdown
 highlighter: rouge
-permalink: /:categories/:title/
-timezone: Europe/Madrid
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: https://github.com/miguelfrancisco85
+author: Miguel Francisco Nuñez Burguera
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# edit this section with your information
+# jekyllt.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Miguel Nuñez's Resume
+name: Miguel Francisco Nuñez Burguera
+email: miguelfrancisco85@gmail.com
+email_full: miguelfrancisco85@gmail.com
+website: About me
+website_full: https://www.miguelnunezburguera.com
+github: miguelfrancisco85
+twitter: Miguelfrancisco
+tel: +34 633054984
+tel_full: tel:+34633054984
+google_maps: 'https://www.google.com/maps/place/Gran+Via+de+les+Corts+Catalanes,+283,+08014+Barcelona'
+address:
+  street: Gran Via de les Corts Catalanes 283
+  postcode: 08014
+  city: Barcelona
+  country: Spain
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
