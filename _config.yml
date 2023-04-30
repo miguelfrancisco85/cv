@@ -30,7 +30,7 @@ address:
   postcode: 08014
   city: Barcelona
   country: Spain
-#google_analytics: UA-69300817-1
+google_analytics: G-DENLJLTE86
 
 # needed for travis-ci build
 exclude: [vendor]
