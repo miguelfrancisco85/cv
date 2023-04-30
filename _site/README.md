@@ -1,40 +1,16 @@
-# Vitae
-
-[![Build Status](https://github.com/jekyllt/vitae/actions/workflows/jekyll_build.yml/badge.svg)](https://github.com/jekyllt/vitae/actions/workflows/jekyll_build.yml)
-[![Ruby](https://img.shields.io/badge/ruby-2.6.3-blue.svg?style=flat)](http://travis-ci.org/jekyllt/vitae)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.9.0-blue.svg?style=flat)](http://travis-ci.org/jekyllt/vitae)
-
-Personal homepage (curriculum vitae or resume) based on [João's](https://github.com/joaomoreno/resume).
-Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](http://jekyllrb.com/) and freely
-hosted in [Github pages](https://pages.github.com/).
-
-
-## View the live demo
-
-[Vitae Live Demo](https://jekyllt.github.io/vitae)
-
-
-## Screenshots
-
-![resume page](https://raw.githubusercontent.com/jekyllt/vitae/gh-pages/assets/images/vitae_screen.png)
-
-
-### Deployment
+# Deployment
 
 There are several alternatives to building and deploying the site:
 
-1. build the site with [GitHub Actions](https://github.com/features/actions) which pushes 
-the resulting files (the contents of `_site/` or `../vitae-pages/`) 
-to the *gh-pages* branch. This is the approach that is currently used. See 
-[jekyll_build.yml](.github/workflows/jekyll_build.yml) for more details.
-
+1. build the site with [GitHub Actions](https://github.com/features/actions) which pushes
+   the resulting files (the contents of `_site/` or `../vitae-pages/`)
+   to the *gh-pages* branch. This is the approach that is currently used. See
+   [jekyll_build.yml](.github/workflows/jekyll_build.yml) for more details.
 2. generate the site locally (more details below) and push the resulting
-HTML to a Github repository, that GitHub Pages then host;
-
+   HTML to a Github repository, that GitHub Pages then host;
 3. build the site with [travis-ci](https://travis-ci.org/) (with goodies from
-[jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
-generated HTML files to a *gh-pages* branch.
-
+   [jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
+   generated HTML files to a *gh-pages* branch.
 4. deploy the static website with Jekyll-compatible hosters, such as https://www.netlify.com/, that allow for deployment from the Github repo and publish the website using CDNs. Netlify has a free starter offer.
 
 For option **2)** simply clone this repository (*master branch*), and then run
@@ -56,17 +32,7 @@ issues (see below about issue tracking).
 
 ## Issues and contributing
 
-This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. If you run into any problems please log them on the [issue tracker](https://github.com/jekyllt/vitae/issues).
-
-Feel free pull-request your patches and fixes.
-
-
-## Thanks
-
-A lot of the work had been already done by the Joao. Many thanks to him :smile:
-
-Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
-
+This install builds well with Ruby v2.6.3 and Jekyll v3.9.0. 
 
 ## Copyright & License
 
